@@ -15,3 +15,5 @@ model.fit(X_train, y_train)
 
 predictions = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, predictions))
+
+print("Model training completed successfully.")
